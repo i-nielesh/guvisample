@@ -4,10 +4,10 @@ int main(){
   printf("enter value of a,b and c");
   scanf("%d%d%d",&a,&b,&c);
   if(a>b&&a>c)
-    printf("a is largest");
+    printf("%d",a);
   else if(b>a&&b>c)
-    printf("b is largest");
+    printf("%d",b);
   else
-    printf("c is largest");
+    printf("%d",c);
   return 0;
 }
