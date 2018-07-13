@@ -5,7 +5,7 @@ int main(){
   scanf("%d",&a);
   printf("enter larger no.");
   scanf("%d",&b);
-  for(i=a;i<b;i++){
+  for(i=a+1;i<b;i++){
     for(j=2;j<i;j++){
         if(i%j==0)
             break;
