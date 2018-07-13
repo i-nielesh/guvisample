@@ -8,7 +8,7 @@ int main(){
     rev=rev*10+r;
     n=n/10;
   }
-  if(n==rev)
+  if(N==rev)
     printf("Yes");
   else
     printf("No");
