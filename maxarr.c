@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a[100],i,n,max=0;
+    int a[100],i,n,max=-32768;
     printf("enter number");
     scanf("%d",&n);
     printf("enter elements in array");
