@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include<string.h>
 
@@ -8,7 +9,7 @@ int main()
     scanf("%s",str);
     l=strlen(str);
     for(i=0;i<l;i++){
-        if(str[i]>=48&&str[i]<=57){
+        if((str[i]>=48&&str[i]<=57)||str[i]==46){
             flag=1;
             continue;
         }
